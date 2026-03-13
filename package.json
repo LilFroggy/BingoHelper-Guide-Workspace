@@ -13,7 +13,9 @@
     "web-streams-polyfill": "^3.3.3"
   },
   "scripts": {
-    "updateEnums": "node ./scripts/updateEnums.js"
+    "update-enums": "node ./scripts/update-enums.js",
+    "create-guide": "node ./scripts/create-guide.js",
+    "precreate-guide": "npm run update-enums"
   },
   "keywords": [],
   "author": "",

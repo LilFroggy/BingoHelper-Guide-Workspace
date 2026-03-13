@@ -1,0 +1,24 @@
+{
+    "folders": [
+        {
+            "name": "📦 Guide Editor",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.readonlyInclude": {
+            "references/**": true
+        },
+        "files.exclude": {
+            ".git": true,
+            ".vscode": true,
+            "node_modules": true,
+            "schemas": true,
+            "scripts": true,
+            ".gitignore": true,
+            "package-lock.json": true,
+            "package.json": true,
+            "guide-editor.code-workspace": true
+        }
+    }
+}
