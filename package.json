@@ -1,5 +1,5 @@
 {
-  "name": "bingohelper-guide-workspace",
+  "name": "bingohelper-guide-editor",
   "type": "module",
   "version": "1.0.0",
   "description": "",
@@ -13,6 +13,7 @@
     "web-streams-polyfill": "^3.3.3"
   },
   "scripts": {
+    "update-editor": "node ./scripts/update-editor.js",
     "update-enums": "node ./scripts/update-enums.js",
     "create-guide": "node ./scripts/create-guide.js",
     "precreate-guide": "npm run update-enums"
